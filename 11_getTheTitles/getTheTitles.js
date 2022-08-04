@@ -1,4 +1,9 @@
-const getTheTitles = function() {
+const getTheTitles = function(objs) {
+    const titles = [];
+    for (let obj of objs){
+        titles.push(obj.title);
+    }
+    return titles;
 
 };
 
